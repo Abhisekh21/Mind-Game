@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: COLUMN;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: bisque;
+}
+.container{
+    display: grid;
+    height: 700px;
+    width: 700px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;    
+    background-color: whitesmoke;
+    padding: 20px;
+    gap: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    /* display: none; */
+}
